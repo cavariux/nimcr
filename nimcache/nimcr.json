@@ -1,0 +1,24 @@
+{"compile":[
+["/home/lmariscal/dev/nimcr/nimcache/nimcr_nimcr.c", "gcc -c  -w -O3 -fno-strict-aliasing  -I/home/lmariscal/.choosenim/toolchains/nim-0.18.0/lib -o /home/lmariscal/dev/nimcr/nimcache/nimcr_nimcr.o /home/lmariscal/dev/nimcr/nimcache/nimcr_nimcr.c"],
+["/home/lmariscal/dev/nimcr/nimcache/stdlib_system.c", "gcc -c  -w -O3 -fno-strict-aliasing  -I/home/lmariscal/.choosenim/toolchains/nim-0.18.0/lib -o /home/lmariscal/dev/nimcr/nimcache/stdlib_system.o /home/lmariscal/dev/nimcr/nimcache/stdlib_system.c"]
+],
+"link":[
+"/home/lmariscal/dev/nimcr/nimcache/nimcr_nimcr.o",
+"/home/lmariscal/dev/nimcr/nimcache/stdlib_system.o",
+"/home/lmariscal/dev/nimcr/nimcache/stdlib_os.o",
+"/home/lmariscal/dev/nimcr/nimcache/stdlib_osproc.o",
+"/home/lmariscal/dev/nimcr/nimcache/stdlib_strutils.o",
+"/home/lmariscal/dev/nimcr/nimcache/stdlib_parseutils.o",
+"/home/lmariscal/dev/nimcr/nimcache/stdlib_math.o",
+"/home/lmariscal/dev/nimcr/nimcache/stdlib_algorithm.o",
+"/home/lmariscal/dev/nimcr/nimcache/stdlib_times.o",
+"/home/lmariscal/dev/nimcr/nimcache/stdlib_posix.o",
+"/home/lmariscal/dev/nimcr/nimcache/stdlib_ospaths.o",
+"/home/lmariscal/dev/nimcr/nimcache/stdlib_strtabs.o",
+"/home/lmariscal/dev/nimcr/nimcache/stdlib_hashes.o",
+"/home/lmariscal/dev/nimcr/nimcache/stdlib_streams.o",
+"/home/lmariscal/dev/nimcr/nimcache/stdlib_cpuinfo.o",
+"/home/lmariscal/dev/nimcr/nimcache/stdlib_linux.o"
+],
+"linkcmd": "gcc   -o /home/lmariscal/dev/nimcr/nimcr  /home/lmariscal/dev/nimcr/nimcache/nimcr_nimcr.o /home/lmariscal/dev/nimcr/nimcache/stdlib_system.o /home/lmariscal/dev/nimcr/nimcache/stdlib_os.o /home/lmariscal/dev/nimcr/nimcache/stdlib_osproc.o /home/lmariscal/dev/nimcr/nimcache/stdlib_strutils.o /home/lmariscal/dev/nimcr/nimcache/stdlib_parseutils.o /home/lmariscal/dev/nimcr/nimcache/stdlib_math.o /home/lmariscal/dev/nimcr/nimcache/stdlib_algorithm.o /home/lmariscal/dev/nimcr/nimcache/stdlib_times.o /home/lmariscal/dev/nimcr/nimcache/stdlib_posix.o /home/lmariscal/dev/nimcr/nimcache/stdlib_ospaths.o /home/lmariscal/dev/nimcr/nimcache/stdlib_strtabs.o /home/lmariscal/dev/nimcr/nimcache/stdlib_hashes.o /home/lmariscal/dev/nimcr/nimcache/stdlib_streams.o /home/lmariscal/dev/nimcr/nimcache/stdlib_cpuinfo.o /home/lmariscal/dev/nimcr/nimcache/stdlib_linux.o  -lm -lrt   -ldl"
+}
